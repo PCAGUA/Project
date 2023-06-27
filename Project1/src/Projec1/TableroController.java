@@ -6,31 +6,15 @@ package Projec1;
 
 import java.net.URL;
 import java.util.ResourceBundle;
-import javafx.event.ActionEvent;
-import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.scene.control.Button;
-import javafx.scene.control.TextField;
 
 /**
  * FXML Controller class
  *
  * @author sopor
  */
-public class VentanaController implements Initializable {
-        @FXML
-    private Button btInicio;
+public class TableroController implements Initializable {
 
-    @FXML
-    private TextField tfedad;
-
-    @FXML
-    private TextField tfnombre;
-
-    @FXML
-    void cambiodeventana(ActionEvent event) {
-
-    }
     /**
      * Initializes the controller class.
      */

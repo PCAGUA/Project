@@ -1,7 +1,8 @@
 
-package Projec1;
+package proyecto1;
 
 import javafx.application.Application;
+import static javafx.application.Application.launch;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
@@ -27,3 +28,4 @@ public class Principal extends Application {
          
 
   }
+    

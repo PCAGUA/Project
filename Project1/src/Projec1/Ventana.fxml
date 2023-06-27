@@ -8,14 +8,14 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" nodeOrientation="LEFT_TO_RIGHT" prefHeight="485.0" prefWidth="682.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proyecto1.VentanaController">
+<AnchorPane id="AnchorPane" nodeOrientation="LEFT_TO_RIGHT" prefHeight="485.0" prefWidth="682.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Projec1.VentanaController">
    <children>
       <ImageView fitHeight="504.0" fitWidth="705.0" layoutX="-3.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@FondoInicial.jpg" />
          </image>
       </ImageView>
-      <Button fx:id="btInicio" defaultButton="true" graphicTextGap="5.0" layoutX="292.0" layoutY="292.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="100.0" text="Inicio" textAlignment="CENTER" textFill="#362222" textOverrun="CLIP">
+      <Button fx:id="btInicio" defaultButton="true" graphicTextGap="5.0" layoutX="292.0" layoutY="292.0" mnemonicParsing="false" onAction="#cambiodeventana" prefHeight="58.0" prefWidth="100.0" text="Inicio" textAlignment="CENTER" textFill="#362222" textOverrun="CLIP">
          <font>
             <Font name="System Bold" size="24.0" />
          </font>
