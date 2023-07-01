@@ -4,23 +4,16 @@
  */
 package game;
 
-import java.net.URL;
-import java.util.ResourceBundle;
-import javafx.fxml.Initializable;
+import javafx.fxml.FXML;
+import javafx.scene.control.Label;
 
-/**
- * FXML Controller class
- *
- * @author sopor
- */
-public class TableroController implements Initializable {
+public class TableroController {
 
-    /**
-     * Initializes the controller class.
-     */
-    @Override
-    public void initialize(URL url, ResourceBundle rb) {
-        // TODO
-    }    
-    
+	@FXML
+	Label lbNombre;
+	
+	public void displayName(String username) {
+		lbNombre.setText("Nombre de Jugador:  " + username);
+	}
+	
 }

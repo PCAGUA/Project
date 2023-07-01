@@ -15,19 +15,13 @@
             <Image url="@FondoInicial.jpg" />
          </image>
       </ImageView>
-      <Button fx:id="btInicio" defaultButton="true" graphicTextGap="5.0" layoutX="292.0" layoutY="292.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="100.0" text="Inicio" textAlignment="CENTER" textFill="#362222" textOverrun="CLIP">
+      <Button fx:id="btInicio" defaultButton="true" graphicTextGap="5.0" layoutX="292.0" layoutY="292.0" mnemonicParsing="false" onAction="#inicio" prefHeight="58.0" prefWidth="100.0" text="Inicio" textAlignment="CENTER" textFill="#362222">
          <font>
             <Font name="System Bold" size="24.0" />
          </font>
       </Button>
-      <TextField fx:id="tfnombre" layoutX="350.0" layoutY="382.0" />
-      <Label layoutX="198.0" layoutY="386.0" text="Nombre del Jugador" textFill="#402424">
-         <font>
-            <Font name="System Bold" size="14.0" />
-         </font>
-      </Label>
-      <TextField fx:id="tfedad" layoutX="350.0" layoutY="416.0" />
-      <Label layoutX="195.0" layoutY="419.0" text="Edad" textFill="#402424">
+      <TextField fx:id="tfnombre" layoutX="350.0" layoutY="382.0" promptText="Digite Nombre" />
+      <Label layoutX="198.0" layoutY="386.0" text="Nombre_del_Jugador" textFill="#402424">
          <font>
             <Font name="System Bold" size="14.0" />
          </font>
